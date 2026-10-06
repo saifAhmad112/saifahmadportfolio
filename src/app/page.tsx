@@ -11,6 +11,7 @@ import { ExperienceSection } from "@/components/sections/ExperienceSection";
 import { EducationSection } from "@/components/sections/EducationSection";
 import { ContactSection } from "@/components/sections/ContactSection";
 import { ResumeModal } from "@/components/sections/ResumeModal";
+import { FloatingWhatsApp } from "@/components/layout/FloatingWhatsApp";
 
 export default function HomePage() {
   const [isResumeOpen, setIsResumeOpen] = useState(false);
@@ -36,6 +37,9 @@ export default function HomePage() {
 
       {/* Footer */}
       <Footer />
+
+      {/* Floating WhatsApp Quick Contact Button */}
+      <FloatingWhatsApp />
 
       {/* Resume Viewer / Printer Modal */}
       <ResumeModal
