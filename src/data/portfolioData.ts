@@ -129,7 +129,7 @@ export const EXPERIENCE_DATA: Experience[] = [
     role: "Full Stack Web Developer",
     company: "Digrowfa Private Limited",
     location: "New Delhi, India",
-    period: "2 June 2023 – Present",
+    period: "June 2023 – Present",
     startDate: "June 2023",
     isCurrent: true,
     type: "Full-Time",
